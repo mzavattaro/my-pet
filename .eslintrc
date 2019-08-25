@@ -88,6 +88,10 @@
     "jsx-a11y/href-no-hash": [
       0
     ],
-    "jsx-a11y/label-has-associated-control": 0
-  }
+    "jsx-a11y/label-has-associated-control": 0,
+    "react-hooks/rules-of-hooks": 2,
+  },
+  "plugins": [
+    "react-hooks"
+  ],
 }

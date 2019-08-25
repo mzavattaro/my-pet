@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Pet from './pet';
+// import Pet from './Pet';
+import SearchParams from './SearchParams/index';
 import 'normalize.css';
 import './App.css';
 
@@ -9,9 +10,7 @@ class App extends Component {
         return (
             <div>
                 <h1>Adopt Me!</h1>
-                <Pet name="Luna" animal="Dog" breed="Havanese" />
-                <Pet name="Pepper" animal="Bird" breed="Cockatiel" />
-                <Pet name="Doink" animal="Cat" breed="Mixed" />
+                <SearchParams />
             </div>
         );
     }
